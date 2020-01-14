@@ -50,7 +50,7 @@ public class HttpUtils {
             }
 
         } catch (Exception ex) {
-            log.error("Get VideoList Request Failed....");
+            log.error("Get Request Failed....");
             log.error(ex.getMessage());
         }
 

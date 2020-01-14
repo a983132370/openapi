@@ -5,20 +5,20 @@ import org.apisign.po.base.ApiBasePo;
 import java.io.Serializable;
 
 /**
- * api创建参数对象
+ * api添加地址参数对象
  */
-public class ApiCreatePo extends ApiBasePo implements Serializable {
+public class ApiAddPo extends ApiBasePo implements Serializable {
 
-    private String account;
+    private String address;
 
     private String extra;
 
-    public String getAccount() {
-        return account;
+    public String getAddress() {
+        return address;
     }
 
-    public void setAccount(String account) {
-        this.account = account;
+    public void setAddress(String address) {
+        this.address = address;
     }
 
     public String getExtra() {
